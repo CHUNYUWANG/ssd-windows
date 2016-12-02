@@ -1,0 +1,2 @@
+cd D:\chnuwa\COMPILE_SUCCESS_SSD\caffe-windows
+caffe.exe train --solver="models\VGGNet\VID\SSD_500x500\solver.prototxt" --snapshot="models\VGGNet\VID/SSD_500x500\VGG_VID_SSD_500x500_iter_22000.solverstate" --gpu 4,5,6,7 2>&1
